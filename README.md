@@ -61,12 +61,12 @@ cp .env.example .env
   - keep `DEFAULT_MODELS=gpt-4o-mini` or add more OpenAI model ids
 - For Ollama:
   - make sure Ollama is running locally
-  - use values like `DEFAULT_MODELS=ollama:llama3.1,ollama:mistral`
+  - use values like `DEFAULT_MODELS=ollama:llama3.1,ollama:mistral, ollama:gemma2b.b`
 
 You can also mix providers, for example:
 
 ```env
-DEFAULT_MODELS=gpt-4o-mini,ollama:llama3.1
+DEFAULT_MODELS=gpt-4o-mini,ollama:llama3.1,ollama:gemma2b:b
 ```
 
 ## Run In VS Code
