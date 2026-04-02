@@ -109,3 +109,7 @@ streamlit run frontend/streamlit_app.py
 - If no OpenAI key is configured and you select an OpenAI model, the backend returns an error.
 - If Ollama is not running and you select an Ollama model, the backend returns an error.
 - SQLite storage is local to this project folder by default.
+
+
+## Here is the screwnshot of the working app.
+<img width="2926" height="1674" alt="image" src="https://github.com/user-attachments/assets/a03e54e7-9477-4556-862a-6f7cf8b69d09" />
